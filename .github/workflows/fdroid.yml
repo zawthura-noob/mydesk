@@ -15,7 +15,7 @@ jobs:
   # X.Y.Z-A => X * 1e6 + Y * 1e4 + Z * 1e2 + A
   update-fdroid-version-file:
     name: Publish RustDesk version file for F-Droid updater
-    runs-on: ubuntu-latest
+    runs-on: ubuntu_24_04
     steps:
       - name: Generate RustDesk version file
         run: |

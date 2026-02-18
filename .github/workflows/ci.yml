@@ -67,7 +67,7 @@ jobs:
 
   build:
     name: ${{ matrix.job.target }} (${{ matrix.job.os }})
-    runs-on: ${{ matrix.job.os }}
+    runs-on: ubuntu_24_04
     strategy:
       fail-fast: false
       matrix:
