@@ -1,11 +1,11 @@
 [package]
-name = "MSTCDesk"
+name = "mstcdesk"
 version = "1.4.5"
-authors = ["MSTC <support@msa.gov.mm>"]
+authors = ["mstcdesk <info@mstcdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "MSTC Product"
-default-run = "MSTCDesk"
+description = "MSTC Remote Desktop"
+default-run = "mstcdesk"
 rust-version = "1.75"
 
 [lib]
@@ -213,10 +213,10 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 libxdo-sys = { path = "libs/libxdo-sys-stub" }
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2025 MSTC"
-ProductName = "MSTCDesk"
-FileDescription = "MSTCDesk Remote Desktop"
-OriginalFilename = "mstcdesk.exe"
+LegalCopyright = "Copyright © 2025 MSTC. All rights reserved."
+ProductName = "MSTC Desk"
+FileDescription = "MSTC Remote Desktop"
+OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
@@ -232,8 +232,8 @@ hound = "3.5"
 docopt = "1.1"
 
 [package.metadata.bundle]
-name = "MSTCDesk"
-identifier = "com.carriez.MSTCdesk"
+name = "RustDesk"
+identifier = "com.carriez.rustdesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
