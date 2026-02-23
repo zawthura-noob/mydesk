@@ -1,11 +1,11 @@
 [package]
-name = "mstcdesk"
+name = "rustdesk"
 version = "1.4.5"
 authors = ["mstcdesk <info@mstcdesk.com>"]
 edition = "2021"
 build= "build.rs"
 description = "MSTC Remote Desktop"
-default-run = "mstcdesk"
+default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]
